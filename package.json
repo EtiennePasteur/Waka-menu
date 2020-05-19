@@ -1,0 +1,19 @@
+{
+  "name": "wakamenu",
+  "productName": "Wakamenu",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Etienne PASTEUR",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./wakamenu.icns --overwrite"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1",
+    "electron": "^9.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

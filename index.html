@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wakatime</title>
+    <link rel="stylesheet" href="./vendor/css/photon.css" media="screen">
+    <link rel="stylesheet" href="./index.css" media="screen">
+  </head>
+  <body>
+    <div class="header-arrow"></div>
+    <div class="window">
+      <header class="toolbar toolbar-header">
+        <h1 class="title">Wakatime - Today : <span id="js-update-time"></span></h1>
+      </header>
+      <div class="window-content">
+        <div class="pane">
+          <img onerror="" id="img-top" src="https://wakatime.com/share/embeddable.svg?format=svg&type=coding-activity-bar&time_range=last_7_days&theme=Dark&show_title=true&confirm=false&timeout=15&writes_only=false&timezone=Europe%2FParis&weekday_start=1&date_format=DD-MM-YYYY" alt="bar-chart">
+          <img src="https://wakatime.com/share/embeddable.svg?format=svg&type=languages-donut&time_range=last_7_days&show_legend=true&theme=Dark&show_title=true&confirm=false&timeout=15&writes_only=false&timezone=Europe%2FParis&weekday_start=1&date_format=DD-MM-YYYY" alt="language-chart">
+          <img src="https://wakatime.com/share/embeddable.svg?format=svg&type=editors-donut&time_range=last_7_days&show_legend=true&theme=Dark&show_title=true&confirm=false&timeout=15&writes_only=false&timezone=Europe%2FParis&weekday_start=1&date_format=DD-MM-YYYY" alt="editor-chart">
+        </div>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <div class="footer-link">Powered by <a href="https://wakatime.com">Wakatime</a> build with ♥️ by <a href="https://etiennepasteur.com">Etienne P.</a></div>
+        <div class="toolbar-actions pull-right">
+          <div class="btn-group">
+            <button class="btn btn-default js-refresh-action">
+              <span class="icon icon-arrows-ccw js-refresh-action" title="Refresh"></span>
+            </button>
+            <button class="btn btn-default js-quit-action">
+              <span class="icon icon-cancel js-quit-action" title="Quit"></span>
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
