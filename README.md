@@ -21,3 +21,5 @@ npm start
 npm run package
 open out/Wakamenu-darwin-x64/Wakamenu.app
 ```
+## Preview
+![Screenshot](screenshot.png)
